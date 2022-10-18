@@ -1,4 +1,3 @@
-
 import styles from "../welcome/Welcome.module.scss";
 export const Welcome = () => {
   return (
@@ -9,20 +8,26 @@ export const Welcome = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo
           illo ipsa in sapiente, iste excepturi harum distinctio quod obcaecati.
           Neque labore quaerat debitis repudiandae laboriosam quibusdam
-          architecto alias incidunt.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo
-          illo ipsa in sapiente, iste excepturi harum distinctio quod obcaecati.
-          Neque labore quaerat debitis repudiandae laboriosam quibusdam
-          architecto alias incidunt.
+          architecto alias incidunt. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Vitae quo illo ipsa in sapiente, iste excepturi
+          harum distinctio quod obcaecati. Neque labore quaerat debitis
+          repudiandae laboriosam quibusdam architecto alias incidunt.
         </p>
       </div>
       <div className={styles["horario"]}>
-        <div className={styles["entrada"]}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          impedit?
-        </div>
-        <div className={styles["salida"]}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        <div className={styles["horario__entrada__servicio"]}>
+          <h2 className={styles["horario__titulo"]}>
+            Horario de Servicio
+          </h2>
+          <p>lunes a viernes </p>
+          <span>8 am - 5 pm</span>
+          <hr/>
+          <h4>
+            Modo de atension
+          </h4>
+          <p>Virtual</p>
+          <p>Medios</p>
+          <span>Teams - Zoom - Movil - Google Meet</span>
         </div>
       </div>
     </div>

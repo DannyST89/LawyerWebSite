@@ -32,5 +32,16 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #28292C;
+    padding: 3rem;
+    .horario__titulo {
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+    hr {
+        margin: 1rem 0 1rem 0;
+    }
+    .horario__entrada__servicio{
+        color: #C9ACA4;
+    }    
   }
 }

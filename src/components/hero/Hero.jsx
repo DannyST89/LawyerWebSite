@@ -1,6 +1,6 @@
 import styles from "../hero/Hero.module.scss";
 import { hero_img } from "../../assets/Images/images";
-import { Link } from "react-scroll";
+
 export const Hero = () => {
   return (
     <div className={styles["container"]} id="hero">
