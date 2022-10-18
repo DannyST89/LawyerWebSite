@@ -1,0 +1,1 @@
+export { default as hero_img } from '../Images/hero_img.webp';
