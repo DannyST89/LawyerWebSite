@@ -1,10 +1,10 @@
 import { Navbar } from "./components/navbar/Navbar";
-import { Hero } from "./components/hero/Hero";
-import { Welcome } from "./components/welcome/Welcome";
-import { Services } from "./components/services/Services";
-import { About } from "./components/about/About";
-import { Contact } from "./components/contact/Contact";
-import { Experiencia } from "./components/experiencia/Experiencia";
+import { Hero } from "./routes/hero/Hero";
+import { Welcome } from "./routes/welcome/Welcome";
+import { Services } from "./routes/services/Services";
+import { About } from "./routes/about/About";
+import { Contact } from "./routes/contact/Contact";
+import { Experiencia } from "./routes/experiencia/Experiencia";
 import { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
 import { dataServices } from "./data.js";

@@ -1,4 +1,4 @@
-import styles from '../contact/Contact.module.scss';
+import styles from './Contact.module.scss';
 
 export const Contact = () => {
     return <div id="contact" className={styles['container']}>Contact</div>
