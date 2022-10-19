@@ -3,6 +3,8 @@ $nav-text-color: #fff;
 $border-bottom: 3px solid #ac8074;
 
 .nav__content {
+  position: fixed;
+  z-index: 99;
   display: grid;
   height: 6rem;
   background-color: $base-color;
