@@ -2,10 +2,24 @@ import styles from "../navbar/Navbar.module.scss";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
+
+
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+  };
+
+
   return (
-    <div className={styles["nav__content"]}>
+    <div className={styles["nav__content"]} id='navbar'>
       <div className={styles["nav__logo"]}>
-        <Link to="hero" smooth={true} duration={2000}>
+        <Link to="hero" smooth={true} duration={1500}>
           Logo
         </Link>
       </div>
@@ -17,7 +31,7 @@ export const Navbar = () => {
               to="hero"
               smooth={true}
               offset={-150}
-              duration={2000}
+              duration={1500}
             >
               Inicio
             </Link>
@@ -27,8 +41,8 @@ export const Navbar = () => {
               activeClass="active"
               to="about"
               smooth={true}
-              offset={-290}
-              duration={2000}
+              offset={-380}
+              duration={1500}
             >
               Nosotros
             </Link>
@@ -38,8 +52,8 @@ export const Navbar = () => {
               activeClass="active"
               to="experiencia"
               smooth={true}
-              offset={-290}
-              duration={2000}
+              offset={-380}
+              duration={1500}
             >
               Experiencia
             </Link>
@@ -49,8 +63,8 @@ export const Navbar = () => {
               activeClass="active"
               to="services"
               smooth={true}
-              offset={-200}
-              duration={2000}
+              offset={-380}
+              duration={1500}
             >
               Servicios
             </Link>
@@ -61,7 +75,7 @@ export const Navbar = () => {
               to="contact"
               smooth={true}
               offset={50}
-              duration={2000}
+              duration={1500}
             >
               Contacto
             </Link>
