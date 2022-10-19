@@ -39,13 +39,14 @@ $hero-main-color: #161719;
     }
     .hero__btn {
         width: 100%;
-        button {
+        a {
             color: #fff;
             background-color: transparent;
             height: 4rem;
             width: 10rem;
             border: 3px solid #fff;
             text-transform: uppercase;
+            padding: 1rem 2rem 1rem 1rem;
             transition: ease-in .3s;
             cursor: pointer;
             &:hover {

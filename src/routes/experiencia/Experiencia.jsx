@@ -43,7 +43,7 @@ export const Experiencia = () => {
     ],
   };
   return (
-    <div className={styles["container"]}>
+    <div className={styles["container"]} id="experiencia">
       <div>
         <Slider {...settings}>
           <div className={styles["slide__container"]}>
