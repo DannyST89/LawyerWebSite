@@ -1,5 +1,20 @@
-
 .container {
-    background-color: yellowgreen;
-    height: 100vh;
+  margin: 5rem;
+  background-color: #161719;
+  height: 15rem;
+}
+h2 {
+  color: #ac8074;
+}
+h3 {
+  color: #fff;
+}
+p {
+  color: #888888;
+}
+.slide__container {
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: grab;
 }

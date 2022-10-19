@@ -1,5 +1,49 @@
-
 .container {
-    background-color: rgb(228, 136, 32);
-    height: 100vh;
+  margin: 5rem;
+  background-color: #161719;
+  display: grid;
+  gap: 2px;
+  grid-template-areas:
+    "img01 img02 img3"
+    "img01 img04 img05";
+  grid-template-columns: 1fr 30% 30%;
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  .main__titule {
+    color: #ac8074;
+    text-align: justify;
+    width: 100%;
+  }
+  .main__text {
+    color: #888888;
+    text-align: justify;
+  }
+  .img__style {
+    position: relative;
+    img {
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+    .img__style:hover {
+        background-color: red;
+    }
+  }
+
+  .textoImg {
+    position: absolute;
+    color: #fff;
+    bottom: 50%;
+    right: 50%;
+  }
+}
+.img__style:first-child {
+  grid-area: img01;
+  height: 25rem;
 }

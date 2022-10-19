@@ -1,16 +1,15 @@
-import styles from "../navbar/Navbar.scss";
+import styles from "../navbar/Navbar.module.scss";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+
 
 export const Navbar = () => {
-  const [isActive, setisActive] = useState(false);
 
   return (
-    <div className="nav__content">
-      <div className="nav__logo">
+    <div className={styles["nav__content"]}>
+      <div className={styles["nav__logo"]}>
         <NavLink to="/">Logo</NavLink>
       </div>
-      <nav className="nav__links">
+      <nav className={styles["nav__links"]}>
         <ul>
           <li>
             <NavLink to="/">Inicio</NavLink>

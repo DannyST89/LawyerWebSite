@@ -3,7 +3,7 @@ import { hero_img } from "../../assets/Images/images";
 
 export const Hero = () => {
   return (
-    <div className={styles["container"]} id="hero">
+    <div className={styles["container"]}>
       <div className={styles["hero__text"]}>
         <h1>Mi texto Principal</h1>
         <p>

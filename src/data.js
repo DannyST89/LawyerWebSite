@@ -55,3 +55,42 @@ export const dataServices = {
         btnTexto: 'Leer Mas...'
     }
 }
+
+export const carouselData = {
+    slide01: {
+        anio: 2000,
+        titulo:'lorem ipsum',
+        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in
+        nesciunt molestias ea hic ipsum possimus porro nobis voluptate quo`,
+    },
+    slide02: {
+        anio: 2000,
+        titulo:'lorem ipsum',
+        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in
+        nesciunt molestias ea hic ipsum possimus porro nobis voluptate quo`,
+    },
+    slide03: {
+        anio: 2000,
+        titulo:'lorem ipsum',
+        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in
+        nesciunt molestias ea hic ipsum possimus porro nobis voluptate quo`,
+    },
+    slide04: {
+        anio: 2015,
+        titulo:'lorem ipsum',
+        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in
+        nesciunt molestias ea hic ipsum possimus porro nobis voluptate quo`,
+    },
+    slide05: {
+        anio: 2020,
+        titulo:'lorem ipsum',
+        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in
+        nesciunt molestias ea hic ipsum possimus porro nobis voluptate quo`,
+    },
+    slide06: {
+        anio: 2022,
+        titulo:'lorem ipsum',
+        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in
+        nesciunt molestias ea hic ipsum possimus porro nobis voluptate quo`,
+    }
+}
