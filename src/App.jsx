@@ -6,7 +6,6 @@ import { About } from "./routes/about/About";
 import { Contact } from "./routes/contact/Contact";
 import { Experiencia } from "./routes/experiencia/Experiencia";
 import { Fragment } from "react";
-import { Routes, Route } from "react-router-dom";
 import { dataServices } from "./data.js";
 import Title from "./components/titulo/Title";
 import { GoLaw } from "react-icons/go";
@@ -36,14 +35,6 @@ function App() {
       <About />
       <Title texto='Contactanos' icon={<MdContactMail />}/>
       <Contact />
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/welcome" element={<Welcome />} />
-        <Route path="/experiencia" element={<Experiencia />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
     </Fragment>
   );
 }

@@ -1,5 +1,4 @@
 import styles from "../navbar/Navbar.module.scss";
-import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
@@ -28,7 +27,7 @@ export const Navbar = () => {
               activeClass="active"
               to="about"
               smooth={true}
-              offset={-180}
+              offset={-290}
               duration={2000}
             >
               Nosotros
@@ -39,7 +38,7 @@ export const Navbar = () => {
               activeClass="active"
               to="experiencia"
               smooth={true}
-              offset={-180}
+              offset={-290}
               duration={2000}
             >
               Experiencia
