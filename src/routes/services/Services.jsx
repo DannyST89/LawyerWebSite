@@ -1,5 +1,5 @@
 import styles from "../services/Services.module.scss";
-import { Link } from "react-router-dom";
+
 import { FaUserAlt } from "react-icons/fa";
 import { MdRealEstateAgent } from "react-icons/md";
 import { GiDiploma } from "react-icons/gi";

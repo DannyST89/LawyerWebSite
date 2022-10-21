@@ -3,22 +3,77 @@
   justify-content: center;
   align-items: center;
   background-color: #161719;
-  height: 20rem;
-  flex-direction: column;
-  form {
+  height: 30rem;
+  width: 100%;
+  flex-direction: row;
+  .img__container {
+    width: 50%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    input {
-      padding: 0.5rem;
-      margin: 0.5rem 0 0.5rem 0;
-      // &:hover {
-      //   border: 1px solid red;
-      // }
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 80%;
+      height: 80%;
     }
-    textarea {
-      margin-top: 0.5rem;
-      &:hover {
-        border: 1px solid red;
+  }
+  .form__container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      input {
+        width: 25rem;
+        padding: 0.5rem;
+        margin: 0.5rem 0 0.5rem 0;
+        color: #fff;
+        // &:hover {
+        //   border: 1px solid red;
+        // }
+      }
+      .iconUser {
+        padding-left: 25px;
+        background: url("../../assets/icons/user.png");
+        background-repeat: no-repeat;
+        background-position: 5px 5px;
+      }
+      .iconMail {
+        padding-left: 25px;
+        background: url("../../assets/icons/mail.png");
+        background-repeat: no-repeat;
+        background-position: 5px 5px;
+      }
+      .iconDescription {
+        padding-left: 25px;
+        background: url("../../assets/icons/pen.png");
+        background-repeat: no-repeat;
+        background-position: 5px 5px;
+      }
+      
+      textarea {
+        width: 25rem;
+        margin-top: 0.5rem;
+        color: #fff;
+      }
+      a {
+        margin-top: 1rem;
+        color: #fff;
+        background-color: transparent;
+        height: 3rem;
+        width: 12rem;
+        border: 3px solid #fff;
+        text-transform: uppercase;
+        padding: 1rem 1rem 1rem 1rem;
+        transition: ease-in 0.3s;
+        cursor: pointer;
+        &:hover {
+          border: 3px solid #ac8074;
+          color: #ac8074;
+        }
       }
     }
   }
