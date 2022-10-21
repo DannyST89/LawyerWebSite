@@ -63,7 +63,7 @@ export const Navbar = () => {
               activeClass="active"
               to="services"
               smooth={true}
-              offset={-380}
+              offset={-300}
               duration={1500}
             >
               Servicios
